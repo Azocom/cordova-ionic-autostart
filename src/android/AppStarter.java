@@ -1,11 +1,11 @@
-package com.tonikorin.cordova.plugin.autostart;
+package com.azocom.cordova.plugin.autostart;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.SharedPreferences;
-import com.tonikorin.cordova.plugin.autostart.AutoStart;
+import com.azocom.cordova.plugin.autostart.AutoStart;
 // import android.util.Log;
 
 public class AppStarter {

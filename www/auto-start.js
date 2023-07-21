@@ -1,5 +1,5 @@
 /*
-    Author: Toni Korin
+    Author: Mantovanelli
 
 	Licensed to the Apache Software Foundation (ASF) under one
     or more contributor license agreements.  See the NOTICE file
@@ -19,7 +19,7 @@
     under the License.
 */
 
-var exec    = require('cordova/exec');
+var exec = require("cordova/exec");
 
 /**
  * Android: activates the automatic start of your app
@@ -28,7 +28,7 @@ var exec    = require('cordova/exec');
  * macOS: N/A.
  */
 exports.enable = function () {
-    cordova.exec(null, null, 'AutoStart', 'enable', []);
+  cordova.exec(null, null, "AutoStart", "enable", []);
 };
 
 /**
@@ -39,7 +39,7 @@ exports.enable = function () {
  *        to launch at boot.
  */
 exports.enableService = function (id) {
-    cordova.exec(null, null, 'AutoStart', 'enableService', [id]);
+  cordova.exec(null, null, "AutoStart", "enableService", [id]);
 };
 
 /**
@@ -50,5 +50,5 @@ exports.enableService = function (id) {
  *         at boot.
  */
 exports.disable = function () {
-    cordova.exec(null, null, 'AutoStart', 'disable', []);
+  cordova.exec(null, null, "AutoStart", "disable", []);
 };

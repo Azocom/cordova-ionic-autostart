@@ -1,10 +1,10 @@
-package com.tonikorin.cordova.plugin.autostart;
+package com.azocom.cordova.plugin.autostart;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import com.tonikorin.cordova.plugin.autostart.AppStarter;
+import com.azocom.cordova.plugin.autostart.AppStarter;
  
 public class BootCompletedReceiver extends BroadcastReceiver {
     

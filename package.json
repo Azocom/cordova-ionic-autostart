@@ -1,16 +1,16 @@
 {
-  "name": "cordova-plugin-autostart",
+  "name": "cordova-ionic-autostart",
   "version": "2.3.0",
   "description": "\r\n        The application will be automatically started after the every boot and the automatic update of your application. \r\n        You can enable or disable the autostart function in your app.\r\n    ",
   "cordova": {
-    "id": "cordova-plugin-autostart",
+    "id": "cordova-ionic-autostart",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ToniKorin/cordova-plugin-autostart.git"
+    "url": "https://github.com/Azocom/cordova-ionic-autostart.git"
   },
   "keywords": [
     "autostart",
@@ -23,10 +23,10 @@
       "version": ">=3.0.0"
     }
   ],
-  "author": "Toni Korin",
+  "author": "Mantovanelli",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/ToniKorin/cordova-plugin-autostart/issues"
+    "url": "https://github.com/Azocom/cordova-ionic-autostart/issues"
   },
-  "homepage": "https://github.com/ToniKorin/cordova-plugin-autostart"
+  "homepage": "https://github.com/Azocom/cordova-ionic-autostart"
 }

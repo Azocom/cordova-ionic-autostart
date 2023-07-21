@@ -1,5 +1,5 @@
 /*
- Author: Toni Korin
+ Author: Mantovanelli
 
  Licensed to the Apache Software Foundation (ASF) under one
  or more contributor license agreements.  See the NOTICE file
@@ -18,7 +18,7 @@
  specific language governing permissions and limitations
  under the License.
  */
-package com.tonikorin.cordova.plugin.autostart;
+package com.azocom.cordova.plugin.autostart;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
