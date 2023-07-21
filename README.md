@@ -1,14 +1,14 @@
-#### INSTALL
+## INSTALL
 
 npm i https://github.com/Azocom/cordova-ionic-autostart.git --legacy-peer-deps
 
 npm i @ionic-native/autostart --legacy-peer-deps
 
-# Options
+#### Optional
 
 npm i @awesome-cordova-plugins/core --legacy-peer-deps
 
-# USED
+### Using
 
 1 - App.Module
 
