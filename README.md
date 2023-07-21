@@ -8,7 +8,7 @@ npm i @ionic-native/autostart --legacy-peer-deps
 
 npm i @awesome-cordova-plugins/core --legacy-peer-deps
 
-### Using
+### Using IONIC 6
 
 1 - App.Module
 
