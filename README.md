@@ -1,6 +1,6 @@
 #### INSTALL
 
-npm i cordova-plugin-autostart --legacy-peer-deps
+npm i https://github.com/Azocom/cordova-ionic-autostart.git --legacy-peer-deps
 
 npm i @ionic-native/autostart --legacy-peer-deps
 
