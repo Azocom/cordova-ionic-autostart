@@ -24,8 +24,12 @@ Autostart,
 2 - App.Component
 
 import { Autostart } from '@ionic-native/autostart/ngx';
+import { Platform } from '@ionic/angular';
+
+export class AppComponent implements OnInit {
 
 constructor(
+private platform: Platform,
 private autostart: Autostart
 ) {
 
@@ -33,8 +37,10 @@ private autostart: Autostart
 
 async ngOnInit() {
 
-    this.platform.ready().then(async () => {
-      this.autostart.enable();
-    });
+      this.platform.ready().then(async () => {
+        this.autostart.enable();
+      });
+
+}
 
 }
